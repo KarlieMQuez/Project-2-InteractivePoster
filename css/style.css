@@ -3,64 +3,146 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: ;
+}
+  
+
+
+
+
 body{
     background-image: url("https://media.istockphoto.com/id/1386705180/photo/abstract-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=wdimBouyd8QHkg5iAeMRCvwq57yuACw0IkjzoF7uXvk=");
     background-size: cover;
 }
 
-#sticky-note{
-    background-color: lightseagreen;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    float: right;
-    width:20%;
-    height:55%
+
+
+#icons{
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 15px;
+    margin-top:25px;
+    text-align: center;
+    
 }
+
+#folders{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 125px;
+    margin-top: 25px;
+    position: absolute;
+    text-align: center;
+}
+#folders2{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 215px;
+    margin-top: 25px;
+    position: absolute;
+    text-align: center;
+}
+
 .chrome{
-    width:65px;
-    height:65px;
+    width:60px;
+    height:60px;
+    padding-left: 5px;
 }
 
 .video-call{
-    width:65px;
-    height:65px;
+    width:60px;
+    height:60px;
+    padding-left: 5px;
 }
 
-.mirco-teams{
-    width:5px;
-    height:5px;
+.teams{
+    width:60px;
+    height:60px;
+    padding-left: 5px;
 }
 
 .bin{
-    width:65px;
-    height:65px;
+    width:60px;
+    height:60px;
+    padding-left: 5px;
 }
 
-.client{
-    width:65px;
-    height:65px;
+#client{
+    width:60px;
+    height:60px;
 }
 
-.work{
-    width:65px;
-    height:65px;
+#work{
+    width: 60px;
+    height:60px;
 }
 
-.personal{
-    width:65px;
-    height:65px;
+#personal{
+    width:60px;
+    height:60px;
 }
 
-.folder4{
-    width:65px;
-    height:65px;
+#folder4{
+    width:60px;
+    height:60px;
 }
 
-.folder5{
-    width:65px;
-    height:65px;
+#folder5{
+    width:60px;
+    height:60px;
 }
 
-.folder6{
-    width:65px;
-    height:65px;
+#folder6{
+    width:60px;
+    height:60px;
 }
+
+h5{
+    font-size: small;
+    color: azure;
+    font-family: 'Lucida Sans';
+    padding-left: 5px;
+    
+}
+
+#sticky-note{
+    background-color: rgb(111, 190, 123);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 300px;
+    height:200px;
+    margin-top: 25px;
+    margin-right:60px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-align:left;
+    padding:10px;
+}
+
+#note2{
+    background-color: rgb(87, 189, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width: 300px;
+    height:200px;
+    margin-top: 25px;
+    margin-right:60px;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+li{
+    margin-left:25px;
+}
+
+/* remember to hide pop1, pop2, pop3 and 
+have them appear later */
+
