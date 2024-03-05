@@ -7,3 +7,60 @@ body{
     background-image: url("https://media.istockphoto.com/id/1386705180/photo/abstract-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=wdimBouyd8QHkg5iAeMRCvwq57yuACw0IkjzoF7uXvk=");
     background-size: cover;
 }
+
+#sticky-note{
+    background-color: lightseagreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    width:20%;
+    height:55%
+}
+.chrome{
+    width:65px;
+    height:65px;
+}
+
+.video-call{
+    width:65px;
+    height:65px;
+}
+
+.mirco-teams{
+    width:5px;
+    height:5px;
+}
+
+.bin{
+    width:65px;
+    height:65px;
+}
+
+.client{
+    width:65px;
+    height:65px;
+}
+
+.work{
+    width:65px;
+    height:65px;
+}
+
+.personal{
+    width:65px;
+    height:65px;
+}
+
+.folder4{
+    width:65px;
+    height:65px;
+}
+
+.folder5{
+    width:65px;
+    height:65px;
+}
+
+.folder6{
+    width:65px;
+    height:65px;
+}
