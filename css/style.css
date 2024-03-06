@@ -4,7 +4,8 @@
 }
 
 @font-face{
-    font-family: ;
+    font-family: written;
+    src:url("../media/fonts/JustAnotherHand-Regular.ttf");
 }
   
 
@@ -34,8 +35,8 @@ body{
     margin-left: 125px;
     margin-top: 25px;
     position: absolute;
-    text-align: center;
 }
+
 #folders2{
     display: inline-block;
     text-align: center;
@@ -43,7 +44,6 @@ body{
     margin-left: 215px;
     margin-top: 25px;
     position: absolute;
-    text-align: center;
 }
 
 .chrome{
@@ -110,7 +110,6 @@ h5{
 
 #sticky-note{
     background-color: rgb(111, 190, 123);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
     width: 300px;
     height:200px;
@@ -122,10 +121,14 @@ h5{
 
 h2{
     text-decoration: underline;
+    font-family: written;
+    font-size: 30px;
 }
 h3{
     text-align:left;
     padding:10px;
+    font-family: written;
+    font-size: 35px;
 }
 
 #note2{
@@ -141,8 +144,59 @@ h3{
 }
 li{
     margin-left:25px;
+    font-family: written;
+    font-size: 25px;
 }
 
 /* remember to hide pop1, pop2, pop3 and 
 have them appear later */
 
+#healthy1{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 225px;
+    margin-top: 350px;
+    position: absolute;
+}
+
+
+#mental{
+    width:60px;
+    height:60px;
+}
+
+#healthy2{
+    display: inline-block;
+    text-align: center;
+    margin-left: 450px;
+    margin-top:350px;
+    position: absolute;
+}
+
+#auditory{
+    width:60px;
+    height:60px;
+}
+
+#healthy3{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 675px;
+    margin-top: 350px;
+    position: absolute;
+}
+
+#physical{
+    width:60px;
+    height:60px;
+}
+
+a{
+    text-align: center;
+    color: azure;
+    font-family: 'Lucida Sans';
+    text-decoration: none;
+
+}
