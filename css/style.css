@@ -112,11 +112,13 @@ h5{
     background-color: rgb(111, 190, 123);
     float: right;
     width: 300px;
-    height:200px;
-    margin-top: 25px;
-    margin-right:60px;
-    padding-top: 15px;
-    padding-left: 5px;
+    height:250px;
+    position: absolute;
+    top:30px;
+    right:85px;
+    padding-top:15px;
+    padding-left:15px;
+    
 }
 
 h2{
@@ -133,13 +135,13 @@ h2{
 }
 
 #note2{
-    background-color: rgb(87, 189, 236);
+    background-color: rgb(219, 233, 136);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     float: right;
     width: 300px;
-    height:200px;
+    height:250px;
     margin-top: 25px;
-    margin-right:60px;
+    margin-right:80px;
     padding-top: 15px;
     padding-left: 5px;
 }
