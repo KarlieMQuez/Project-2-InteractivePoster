@@ -209,6 +209,7 @@ a{
     position:absolute;
     top:65px;
     left:160px;
+    
 }
 
 #cFolder{
@@ -223,6 +224,16 @@ h6{
 
 #scroll{
     position:absolute;
-    top:125px;
-    left: 180px;background-color: aquamarine;
+    top:152px;
+    left: 150px;background-color: aquamarine;
+    overflow: scroll;
+    width:550px;
+    height:330px;
+    background-color: blueviolet;
+    
 }
+
+ .innerFile{
+    width:20px;
+    height:20px;
+ }
