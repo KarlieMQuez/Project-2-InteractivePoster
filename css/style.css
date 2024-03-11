@@ -49,6 +49,10 @@ body{
     padding-left: 5px;
 }
 
+.chrome:hover{
+    cursor: pointer;
+}
+
 .zoom{
     width:60px;
     height:60px;

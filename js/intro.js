@@ -15,11 +15,11 @@ $("#chrome-open").hide();
 
 $("#open-client").hide();
 
-$("#chrome").clicked(function (){
-$("#chrome-open").show();
+$("#chrome").click( function (){
+    $("#chrome-open").show();
 });
 
-$("#exit-email").clicked(function(){
+$("#exit-email").click( function(){
     $("#pop1").show();
     $("#chrome-open").slideDown(1000);
 
