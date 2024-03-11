@@ -283,6 +283,25 @@ h6{
     top:3px;
  }
 
+ #chrome-close{
+    position: absolute;
+    background-color: rgb(63, 195, 129);
+    top:1px;
+    right:0px;
+    width:45px;
+    height:33px;
+ }
+
+ #chrome-close:hover{
+    background-color: red;
+ }
+
+ #exit-email{
+    color: black;
+    text-align: center;
+    align-content: center;
+ }
+
  #gmail{
     width:1530px;
     height: 720px;
