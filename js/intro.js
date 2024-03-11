@@ -15,14 +15,18 @@ $("#chrome-open").hide();
 
 $("#open-client").hide();
 
+// if ($("#chrome-open").show() && $("#chrome").click())
+// {
+//     $("#chrome-open").hide();
+// }
+
 $("#chrome").click( function (){
     $("#chrome-open").show();
 });
 
-$("#exit-email").click( function(){
+$("#chrome-close").click( function (){
     $("#pop1").show();
     $("#chrome-open").slideDown(1000);
-
 });
 
 
