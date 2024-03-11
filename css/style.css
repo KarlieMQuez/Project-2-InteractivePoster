@@ -3,14 +3,11 @@
     padding: 0;
 }
 
+/* imported Font for sticky notes */
 @font-face{
     font-family: written;
     src:url("../media/fonts/JustAnotherHand-Regular.ttf");
 }
-  
-
-
-
 
 body{
     background-image: url("https://media.istockphoto.com/id/1386705180/photo/abstract-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=wdimBouyd8QHkg5iAeMRCvwq57yuACw0IkjzoF7uXvk=");
@@ -18,7 +15,7 @@ body{
 }
 
 
-
+/* Icons and folders on the destop screen */
 #icons{
     display: inline-block;
     margin-right: 50px;
@@ -108,6 +105,7 @@ h5{
     
 }
 
+/* Sticky Notes designs and words */
 #sticky-note{
     background-color: rgb(111, 190, 123);
     float: right;
@@ -151,8 +149,7 @@ li{
     font-size: 25px;
 }
 
-/* remember to hide pop1, pop2, pop3 and 
-have them appear later */
+/* Final Icons to appear at the end */
 
 #healthy1{
     display: inline-block;
@@ -202,4 +199,30 @@ a{
     font-family: 'Lucida Sans';
     text-decoration: none;
 
+}
+
+
+/* Details for the opened Client(s) folder */
+#open-client{
+    width:700px;
+    height:700px;
+    position:absolute;
+    top:65px;
+    left:160px;
+}
+
+#cFolder{
+    width: 100%;
+}
+
+h6{
+    position:absolute;
+    top:109px;
+    left:110px;
+}
+
+#scroll{
+    position:absolute;
+    top:125px;
+    left: 180px;background-color: aquamarine;
 }
