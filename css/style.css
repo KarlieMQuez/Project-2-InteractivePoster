@@ -49,7 +49,7 @@ body{
     padding-left: 5px;
 }
 
-.video-call{
+.zoom{
     width:60px;
     height:60px;
     padding-left: 5px;
@@ -236,4 +236,14 @@ h6{
  .innerFile{
     width:20px;
     height:20px;
+ }
+
+ .names{
+    display: inline;
+
+    padding-right:125px;
+ }
+ .date{
+    display:inline;
+    font-size: 11px;
  }
