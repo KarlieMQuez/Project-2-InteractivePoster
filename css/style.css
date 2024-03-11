@@ -225,12 +225,10 @@ h6{
 #scroll{
     position:absolute;
     top:152px;
-    left: 150px;background-color: aquamarine;
+    left: 150px;
     overflow: scroll;
     width:550px;
     height:330px;
-    background-color: blueviolet;
-    
 }
 
  .innerFile{
@@ -240,10 +238,10 @@ h6{
 
  .names{
     display: inline;
-
     padding-right:125px;
  }
  .date{
     display:inline;
     font-size: 11px;
+    text-align: center;
  }
