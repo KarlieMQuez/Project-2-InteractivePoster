@@ -209,7 +209,6 @@ a{
     position:absolute;
     top:65px;
     left:160px;
-    
 }
 
 #cFolder{
@@ -234,14 +233,84 @@ h6{
  .innerFile{
     width:20px;
     height:20px;
+    position:absolute;
  }
 
  .names{
-    display: inline;
-    padding-right:125px;
+    display: inline-block;
+    color: black;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 11px;
  }
+
+#c-dates{
+    position:absolute;
+    top:2px;
+    left:230px;
+    width:112px;
+    height:445px;
+    overflow:hidden; 
+}
+
  .date{
     display:inline;
+    font-size: 10px;
+    color: black;
+    margin-top: 5px;
+ }
+
+ #c-file{
+    position:absolute;
+    top:5px;
+    left:342px;
+    width:105px;
+    height:445px;
+   
+ }
+
+ .type{
+    color:black;
     font-size: 11px;
-    text-align: center;
+    display: inline;
+    position:absolute;
+    padding-left: 12px;
+ }
+
+ /* details for the opened chrome */
+ #chrome-open{
+    position: absolute;
+    top:3px;
+ }
+
+ #gmail{
+    width:1530px;
+    height: 720px;
+ }
+
+ #inbox{
+    position:absolute;
+    width:100px;
+    height:530px;
+    top:186px;
+    left:450px;
+ }
+
+ .sender{
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+ }
+
+ #middle-inbox{
+    position:absolute;
+    top:186px;
+    left:650px;
+    
+ }
+
+ .subject{
+    font-size: 15px;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
  }

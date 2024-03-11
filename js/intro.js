@@ -11,6 +11,13 @@ $("#pop1").hide();
 $("#pop2").hide();
 $("#pop3").hide();
 
+$("#open-client").hide();
+
+$("#chrome").clicked(function (){
+$("#pop1").show();
+
+
+})
 // When Chrome is clicked Email open, email sound plays, email sounds repeat, pop1 appears, phone rings
 
 // When Zoom is clicked, video appears, pop2 appears, pop3 appears
