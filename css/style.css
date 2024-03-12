@@ -64,7 +64,7 @@ body{
     padding-left: 5px;
 }
 
-.teams{
+#teams{
     width:60px;
     height:60px;
     padding-left: 5px;
@@ -73,6 +73,12 @@ body{
 .bin{
     width:60px;
     height:60px;
+    padding-left: 5px;
+}
+
+.excel{
+    width:80px;
+    height:80px;
     padding-left: 5px;
 }
 
@@ -306,6 +312,11 @@ h6{
  }
 
  /* details for the opened chrome */
+
+audio{
+    display: none;
+}
+
  #chrome-open{
     position: absolute;
     top:3px;
@@ -396,4 +407,32 @@ h6{
     padding-left: 10px;
     font-family: email-sign;
 
+ }
+
+ #teams-open{
+    position:absolute;
+    top:-20px;
+    left:150px;
+ }
+
+ #teams-close{
+    position: absolute;
+    background-color: rgb(90, 65, 174);
+    top:40px;
+    right:5px;
+    width:40px;
+    height:25px;
+ }
+
+ #teams-close:hover{
+    background-color: red;
+ }
+
+ #exit-teams{
+    text-align: center;
+ }
+
+ #teams-chat{
+    width:1200px;
+    height:850px;
  }

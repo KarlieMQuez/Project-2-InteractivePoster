@@ -27,13 +27,19 @@
 
          <br>
 
-        <img class="teams" src="media/images/Teams-icon.png">
+        <img id="teams" src="media/images/Teams-icon.png">
         <h5> Teams</h5>
 
         <br>
     
+        <img class="excel" src="media/images/Microsoft_Excel-Logo.png">
+        <h5> Excel</h5>
+
+        <br>
+
         <img class="bin" src="media/images/Recyle-icon.png">
          <h5> Recyle bin </h5>
+
     </div>
 
     <div id="folders"> 
@@ -69,10 +75,10 @@
         <h2> To Do List</h2>
         <br>
         <ul> 
-            <li> Check emails</li>
+            <li> Open Chrome to Check emails</li>
             <li id="pop1"> Find S. Racio's  file  </li>
-            <li id="pop2"> Create Excel sheet for Project Ann </li>
-            <li id="pop3"> Message Peter when he's online </li>
+            <li id="pop2"> Message Oscar when he's online </li>
+            <li id="pop3"> Create Excel sheet for Project Ann </li>
             
         </ul>
 
@@ -98,9 +104,10 @@
     
     </div>
     
+
     <div id="chrome-open">
         <img id="gmail" src="media/images/gmail.jpg">
-        <audio id=ding src="media/audio/Bell-notification.wav"> </audio>
+        <audio id ="email-ding" src="media/audio/Bell-notification.wav" controls ></audio>
         <div id="chrome-close">
             <h3 id="exit-email"> X </h3>
 
@@ -178,9 +185,9 @@
             <br>
             <p> The team is currently unable to locate
                  an important client's file. The folder should be titled
-                 "S. Racio". Can you check if you have the file? This is urgent and needs
-                 ro be located right away! If you are unable to locate it
-                 I ask that you take the time today to connect with Oscar once he's online. He will provide the next best steps.
+                 "S. Racio". Can you check if you have the file? This is URGENT and needs
+                 to be located right away! If you are unable to locate it,
+                 I ask that you take the time today to connect with Oscar once he's online. He will provide the best next steps.
                  You can check Teams to see when he's available.
             </p>
             <br>
@@ -209,6 +216,7 @@
 
     <!-- Client(s) Folder opened -->
     <div id="open-client">
+        <audio id="chat-ring" src="media/audio/pop-up-notification.wav" controls ></audio>
         <img id="cFolder" src="media/images/C-Folder.jpeg">
         <h6> Desktop      >      Client(s) </h6>
         <div id="close-client">
@@ -415,12 +423,14 @@
 
     </div>
 
-    <!--Create e-mail page that asks you to look for the S. Racio client file
-        If you cannot find the file, you need to call Boss on Zoom to ask -->
+    <div id="teams-open">
+        <img id="teams-chat" src="media/images/Teams-chat.PNG">
+        <div id="teams-close">
+            <h3 id="exit-teams"> X </h3>
+        </div>
+    </div>
 
-    <!-- Video call says you will need to wait for Peter to come online to find the file,
-         since we dont know when he'll be online, why dont you use the time to create an
-          excel sheet for Projecr Ann, I will send the details over on teams-->
+
 
 
 
