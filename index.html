@@ -6,13 +6,13 @@
     <title>Project 2</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="jquery-3.7.1.js"></script>
-    
-    
 </head>
 
 
 <body>
     <script src="js/intro.js"></script>
+
+    <audio id="phone-buzz" src="media/audio/Cellphone-vibrate.wav" controls loop></audio>
 
     <!-- Icons ad folders on Desktop screen  -->
     <div id="icons"> 
@@ -107,9 +107,9 @@
 
     <div id="chrome-open">
         <img id="gmail" src="media/images/gmail.jpg">
-        <audio id ="email-ding" src="media/audio/Bell-notification.wav" controls ></audio>
+        <audio id ="email-ding" src="media/audio/Bell-notification.wav" controls loop></audio>
         <div id="chrome-close">
-            <h3 id="exit-email"> X </h3>
+            <h3 id="exit-email"> _ </h3>
 
         </div>
         <div id="inbox">
@@ -181,9 +181,9 @@
             <h3 id="email-intro"> Alisza Andrew : alisza.andrew@gmail.com</h3>
             <h4> to: new.member@gmail.com</h4>
             <br>
-            <p> Hello, </p>
+            <p class="email"> Hello, </p>
             <br>
-            <p> The team is currently unable to locate
+            <p class="email"> The team is currently unable to locate
                  an important client's file. The folder should be titled
                  "S. Racio". Can you check if you have the file? This is URGENT and needs
                  to be located right away! If you are unable to locate it,
@@ -191,21 +191,21 @@
                  You can check Teams to see when he's available.
             </p>
             <br>
-            <p>
+            <p class="email">
                 Also, you should have recieved some emails in the last few days. Make sure to read them ASAP.
                 We need to catch you up with the rest of the team so you can fit right in.
                 There will be more email's coming in about additional onboarding and projects that require your attention.
                 Try to find the time wherever you can to get started on all of this!
             </p>
             <br>
-            <p>
+            <p class="email">
                 Sincerely,
             </p>
             <h3 id="signature"> Alisza Andrew</h3>
-            <p>
+            <p class="email">
                 Email: alisza.andrew@gmail.com
             </p>
-            <p>
+            <p class="email">
                 Cell: (070) 123-7654
             </p>
 
@@ -216,7 +216,7 @@
 
     <!-- Client(s) Folder opened -->
     <div id="open-client">
-        <audio id="chat-ring" src="media/audio/pop-up-notification.wav" controls ></audio>
+        <audio id="chat-ring" src="media/audio/messenger.wav" controls loop ></audio>
         <img id="cFolder" src="media/images/C-Folder.jpeg">
         <h6> Desktop      >      Client(s) </h6>
         <div id="close-client">
@@ -422,13 +422,40 @@
              
 
     </div>
+    <div id="popup">
+        <p id="notification-underline">
+            *REMINDER*
+        </p>
+        <br>
+        <p id="notification">
+            Complete the Project Ann excel sheet by noon today!
+        </p>
+
+    </div>
 
     <div id="teams-open">
         <img id="teams-chat" src="media/images/Teams-chat.PNG">
         <div id="teams-close">
-            <h3 id="exit-teams"> X </h3>
+            <h3 id="exit-teams"> _ </h3>
         </div>
     </div>
+
+    <div id="rest">
+        <h1> Take A Breather</h1>
+        <br>
+        <h1> Too much work can be overwhelming</h1>
+        <h1> You don't need to consistantly work...</h1>
+        <h1> Remember to take some time to take care of yourself too</h1>
+        <br>
+        <div id="close-final">
+            <b> Click to Go Take Care of Yourself</b>
+
+        </div>
+
+
+    </div>
+
+    
 
 
 

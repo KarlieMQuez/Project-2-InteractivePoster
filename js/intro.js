@@ -3,6 +3,8 @@ $(document).ready (function(){
 
 var ding = document.getElementById("email-ding");
 var chat = document.getElementById("chat-ring");
+var ring = document.getElementById("phone-buzz");
+
 
 $("#healthy1").hide();
 $("#healthy2").hide();
@@ -21,10 +23,14 @@ $("#open-client").hide();
 
 $("#teams-open").hide();
 
+$("#popup").hide();
+$("#rest").hide();
+
+ring.play();
 
 $("#chrome").click( function (){
     $("#chrome-open").show();
-
+    
 });
 
 $("#open-me").click (function (){
@@ -35,6 +41,7 @@ $("#exit-email").click( function(){
     $("#chrome-open").hide();
     $("#boss-email").hide();
     $("#pop1").show();
+    ding.play();
 });
 
 $("#client").click( function (){
@@ -44,7 +51,6 @@ $("#client").click( function (){
 $("#close-client").click( function(){
     $("#open-client").hide();
     $("#pop2").show();
-    chat.play();
 
 });
 
@@ -54,19 +60,28 @@ $("#teams").click(function(){
 
 $("#teams-close").click(function(){
     $("#teams-open").hide();
-    ding.play();
+    chat.play();
+    $("#popup").fadeIn(1000).delay(3000).fadeOut(1000)
+    $("#pop3").show();
 });
 
+$("#excel").click(function(){
+    $("#rest").show();
+    $("#rest").addClass("breather");
+    setTimeout(function (){
+        $("#rest").removeClass("breather");
+    }, 2000);
+});
 
-
-
-
-// when Zoom X is closed, Notifications of files repeats, phone rings more
-
-
-
-
-
-
-
+$("#close-final").click(function(){
+    $("#rest").hide();
+    $("#healthy1").show();
+    $("#healthy2").show();
+    $("#healthy3").show();
+    $("#sticky-note").show();
+    ring.stop();
+    ding.stop();
+    chat.stop();
 })
+
+});

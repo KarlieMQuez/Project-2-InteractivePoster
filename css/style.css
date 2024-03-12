@@ -326,13 +326,13 @@ audio{
     position: absolute;
     background-color: rgb(63, 195, 129);
     top:1px;
-    right:0px;
+    right:80px;
     width:45px;
     height:33px;
  }
 
  #chrome-close:hover{
-    background-color: red;
+    background-color: rgb(65, 122, 82);
  }
 
  #open-me:hover{
@@ -389,7 +389,7 @@ audio{
     background-color: white;
  }
 
- p{ 
+ .email{ 
     font-size: 20px;
     color:black;
     padding-right: 10px;
@@ -419,7 +419,7 @@ audio{
     position: absolute;
     background-color: rgb(90, 65, 174);
     top:40px;
-    right:5px;
+    right:80px;
     width:40px;
     height:25px;
  }
@@ -435,4 +435,59 @@ audio{
  #teams-chat{
     width:1200px;
     height:850px;
+ }
+
+ #popup{
+    position: absolute;
+    bottom: 225px;
+    right:5px;
+    background-color: rgb(215, 212, 212);
+    width:200px;
+    height:80px;
+    overflow: hidden;
+ }
+
+ #notification-underline{
+    text-decoration: underline;
+    color: rgb(79, 79, 79);
+    padding-left: 10px;
+ }
+ #notification{
+    text-align: center;
+    color: rgb(79, 79, 79);
+ }
+
+ #rest{
+    padding-top:40px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom: 100px;
+    position:absolute;
+    top:100px;
+    left:350px;
+    width: 400px;
+    height:250px;
+    background-color: rgb(127, 182, 255);
+ }
+
+ h1{
+    color: rgb(88, 67, 107);
+    text-align: center;
+ }
+
+ @keyframes breather{
+    0%{width:400px;}
+    50%{width:600px;}
+    100%{width:400px;}
+ }
+
+ #rest{
+    animation: breather 5s;
+ }
+
+ #close-final{
+    text-align: center;
+ }
+ b{
+    color: aquamarine;
  }
