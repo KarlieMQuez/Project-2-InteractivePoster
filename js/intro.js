@@ -3,8 +3,8 @@ $(document).ready (function(){
 
 var ding = document.getElementById("email-ding");
 var chat = document.getElementById("chat-ring");
-var ring = document.getElementById("phone-buzz");
-
+var buzz = document.getElementById("phone-buzz");
+var final = document.getElementById("peace")
 
 $("#healthy1").hide();
 $("#healthy2").hide();
@@ -26,7 +26,7 @@ $("#teams-open").hide();
 $("#popup").hide();
 $("#rest").hide();
 
-ring.play();
+buzz.play();
 
 $("#chrome").click( function (){
     $("#chrome-open").show();
@@ -79,9 +79,10 @@ $("#close-final").click(function(){
     $("#healthy2").show();
     $("#healthy3").show();
     $("#sticky-note").show();
-    ring.stop();
-    ding.stop();
-    chat.stop();
+    buzz.pause();
+    ding.pause();
+    chat.pause();
+    final.play();
 })
 
 });
