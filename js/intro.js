@@ -26,7 +26,10 @@ $("#teams-open").hide();
 $("#popup").hide();
 $("#rest").hide();
 
-buzz.play();
+$("#note2").mouseenter(function(){
+    buzz.play();
+})
+
 
 $("#chrome").click( function (){
     $("#chrome-open").show();
