@@ -71,6 +71,10 @@ $("#excel").click(function(){
     setTimeout(function (){
         $("#rest").removeClass("breather");
     }, 2000);
+    buzz.pause();
+    ding.pause();
+    chat.pause();
+
 });
 
 $("#close-final").click(function(){
@@ -79,9 +83,7 @@ $("#close-final").click(function(){
     $("#healthy2").show();
     $("#healthy3").show();
     $("#sticky-note").show();
-    buzz.pause();
-    ding.pause();
-    chat.pause();
+    
     final.play();
 })
 
