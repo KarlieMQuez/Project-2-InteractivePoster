@@ -1,6 +1,9 @@
 //resource link: https://www.w3schools.com/jquery/default.asp
 $(document).ready (function(){
 
+var ping=
+
+
 $("#healthy1").hide();
 $("#healthy2").hide();
 $("#healthy3").hide();
@@ -12,27 +15,38 @@ $("#pop2").hide();
 $("#pop3").hide();
 
 $("#chrome-open").hide();
+$("#boss-email").hide();
 
 $("#open-client").hide();
 
-// if ($("#chrome-open").show() && $("#chrome").click())
-// {
-//     $("#chrome-open").hide();
-// }
 
 $("#chrome").click( function (){
     $("#chrome-open").show();
+    $("#ding").play();
 });
 
-$("#chrome-close").click( function (){
+$("#open-me").click (function (){
+    $("#boss-email").show();
+})
+
+$("#exit-email").click( function(){
+    $("#chrome-open").hide();
+    $("#boss-email").hide();
     $("#pop1").show();
-    $("#chrome-open").slideDown(1000);
+});
+
+$("#client").click( function (){
+    $("#open-client").show();
+});
+
+$("#close-client").click( function(){
+    $("#open-client").hide();
+
 });
 
 
-// When Chrome is clicked Email open, email sound plays, email sounds repeat, pop1 appears, phone rings
 
-// When Zoom is clicked, video appears, pop2 appears, pop3 appears
+
 
 // when Zoom X is closed, Notifications of files repeats, phone rings more
 

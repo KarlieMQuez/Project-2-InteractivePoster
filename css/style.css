@@ -9,6 +9,11 @@
     src:url("../media/fonts/JustAnotherHand-Regular.ttf");
 }
 
+@font-face{
+    font-family:email-sign;
+    src:url("../media/fonts/LaBelleAurore-Regular.ttf");
+}
+
 body{
     background-image: url("https://media.istockphoto.com/id/1386705180/photo/abstract-blue-background.jpg?b=1&s=612x612&w=0&k=20&c=wdimBouyd8QHkg5iAeMRCvwq57yuACw0IkjzoF7uXvk=");
     background-size: cover;
@@ -215,6 +220,25 @@ a{
     left:160px;
 }
 
+#close-client{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    top:0px;
+    right:0px;
+    width:20px;
+    height:19px;
+ }
+
+ #exit-folder{
+    color:black;
+    text-align: center;
+    float: right;
+ }
+
+ #close-client:hover{
+    background-color: red;
+ }
+
 #cFolder{
     width: 100%;
 }
@@ -300,6 +324,10 @@ h6{
     background-color: red;
  }
 
+ #open-me:hover{
+    background-color: brown;
+ }
+
  #exit-email{
     color: black;
     text-align: center;
@@ -329,6 +357,7 @@ h6{
     position:absolute;
     top:186px;
     left:650px;
+    width:180px;
     
  }
 
@@ -336,4 +365,35 @@ h6{
     font-size: 15px;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
+ }
+
+ #boss-email{
+    position: absolute;
+    width:1205px;
+    height:570px;
+    top:140px;
+    left:315px;
+    padding-top:10px;
+    padding-left:10px;
+    background-color: white;
+ }
+
+ p{ 
+    font-size: 20px;
+    color:black;
+    padding-right: 10px;
+    padding-left:10px;
+ }
+
+#subject-title{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+ #signature{
+    font-size: 40px;
+    padding-left: 10px;
+    font-family: email-sign;
+
  }
